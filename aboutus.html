@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body{
+            background-color: rgb(249, 239, 230);
+            background-image: linear-gradient(to right, rgb(214, 190, 162) , rgb(222, 219, 215));
+    
+        }
+        header{
+            background-color: rgb(89, 84, 78);
+            text-align: center;
+            font-size: 25px;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+        }
+        img {
+            max-width: 100%;
+            max-height: 120%;
+        }
+        p{
+            padding-left: 170px;
+            padding-right: 170px;
+            padding-top: 10px;
+            font-size: 24px;
+            
+        }
+        h4{
+            font-size: 28px;
+            text-align: center;
+        }
+    .container {
+    display: grid;
+    display: flex;
+    grid-template-columns: 4fr 4fr 4fr;
+    column-gap: 5px;
+    
+   }
+
+   .text{
+    padding-left: 20px;
+    font-size: 26px;
+   }
+  
+   .images{
+    padding-top: 60px;
+    padding-left: 50px;
+   }
+   
+   input[type=text], [type=email] , textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(89, 84, 78);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#04AA6D;
+}
+
+.containers {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 100px;
+  margin-top: 10px;
+}
+    </style>
+</head>
+<body>
+    <header><h2>About Us</h2></header>
+    <h4>About Wanderlust Chronicles</h4>
+    <div class="image">
+        <img src="about1.jpg" alt="image1">
+    </div>
+    <p><i>Wanderlust Chronicles</i>is an adventure travel blog by Olly Gaspar featuring free and helpful travel guides and inspiring photography from some of the world’s most epic destinations.
+
+        From waterfall hikes to ocean sailing, We Seek Travel gives readers the information and inspiration they need to plan an awesome adventure & explore more on every trip.</p>
+        <div class="container">
+            <div class="images">
+                <img src="about2.jpeg" alt="image2" style="height: 400px; width: 900px; margin-top: 50px; border-radius: 50%;">
+            </div>
+            <div class="text">
+                <p style="padding-left: 10px; font-size: 30px;"><b>Hey Friends! My Name is Pooja.</b></p>
+                <p style="padding-left: 10px;">I’m an indefinite traveler, and many know me as a nomad, tour guide, photographer, blogger, adventurer, festival fairy, solo traveler, serial experience seeker, and/or self-proclaimed mermaid </p> 
+                 <p style="padding-left: 10px;">I’m passionate about making the most of life – obsessive, some may say – which is why I started this blog to help you do the same! Here I share my tips from living, working, traveling, and struggling</p> 
+                 <p style="padding-left: 10px;"><i>Wanderlust Chronicles</i>is designed to inspire young-at-heart travelers to plan AND make the most of a dream trip. I focus on unique + boutique travel experiences perfect for the insta-savvy adventurer who enjoys going off the beaten track while finding the best photo ops and cute spots – on a budget but with the occasional splurge.</p>
+                 <p style="padding-left: 10px;">I love being in nature – I love long walks through the forest, a hike up an island or a stroll down a beach. I love as much exploring the tiny unknown corners in a city.</p>
+                 <p style="padding-left: 10px;">Photography is a big part of our travels and we make sure we have enough time to spend on making good pictures.</p>
+                </div>
+        </div>
+        <center><h3 style="margin: 100px; margin-bottom: 10px;margin-top: 20px; font-size: 32px;"><b><i>Feedback Form</i></b></h3></center>
+        <div class="containers">
+            <form action="/action_page.php">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Your name.." required>
+          
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Your mail id.." required>
+
+          
+              <label for="subject">Feedback:</label>
+              <textarea id="feedback" name="feedback" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+</body>
+</html>
